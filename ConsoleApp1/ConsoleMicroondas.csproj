@@ -45,7 +45,6 @@
   <ItemGroup>
     <Compile Include="Controller\MicroondasController.cs" />
     <Compile Include="Controller\ProgramacaoController.cs" />
-    <Compile Include="Model\MicroondasModel.cs" />
     <Compile Include="Model\ProgramacaoModel.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

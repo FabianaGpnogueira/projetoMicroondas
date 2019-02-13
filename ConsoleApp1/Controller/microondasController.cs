@@ -17,13 +17,8 @@ namespace ConsoleApp1.Controller
             get { return potencia_; }
             set { potencia_ = value; }
         }
-        private int tempoTotal_;
-        public int tempoTotal
-    
-        {
-            get { return tempoTotal_; }
-            set { tempoTotal_ = value; }
-        }
+
+        public int tempoTotal { get; set; }
         
         public Boolean AlterarPotencia(string potenciaAlterada)
         {
